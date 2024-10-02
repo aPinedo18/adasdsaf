@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Softmach Ventas - Creamos y vendemos páginas web para clientes.">
+    <title>SOFTMACH VENTAS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #004c99;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-color: #00aaff;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #004c99;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service-box {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 30%;
+        }
+        .service-box h3 {
+            color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            margin-top: 30px;
+            background-color: #004c99;
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            max-width: 400px;
+            margin: 30px auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #00aaff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0099cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SOFTMACH VENTAS</h1>
+        <p>Creamos y vendemos páginas web profesionales para clientes</p>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Tu página web perfecta a un clic de distancia</h1>
+        <p>En Softmach Ventas nos especializamos en diseñar y desarrollar páginas web a la medida de tus necesidades.</p>
+    </section>
+
+    <section class="content" id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Diseño Web Personalizado</h3>
+                <p>Creamos páginas web únicas, adaptadas a tus objetivos y marca.</p>
+            </div>
+            <div class="service-box">
+                <h3>Desarrollo Responsive</h3>
+                <p>Garantizamos que tu página se vea perfecta en todos los dispositivos, desde móviles hasta desktops.</p>
+            </div>
+            <div class="service-box">
+                <h3>Mantenimiento y Actualización</h3>
+                <p>Mantenemos tu sitio siempre al día, con actualizaciones y soporte continuo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contacto">
+        <h2>Contacto</h2>
+        <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" rows="5" placeholder="Tu mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Softmach Ventas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
